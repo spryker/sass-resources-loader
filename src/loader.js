@@ -65,7 +65,7 @@ export default function (source) {
   async.map(
     files,
     (file, cb) => {
-      fs.readFile(file, 'utf8', (error, contents) => {
+      fs.readFileSync(file, 'utf8', (error, contents) => {
         rewriteImports(error, file, contents, moduleContext, cb);
       });
     },
