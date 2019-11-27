@@ -35,8 +35,8 @@
     "webpack"
   ],
   "dependencies": {
-    "@babel/cli": "^7.4.4",
-    "@babel/preset-env": "^7.4.5",
+    "@babel/cli": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
     "async": "^3.0.1",
     "babel-eslint": "^10.0.2",
     "chalk": "^2.4.2",
