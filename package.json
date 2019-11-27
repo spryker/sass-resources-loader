@@ -46,11 +46,11 @@
   "devDependencies": {
     "@babel/core": "^7.0.0",
     "eslint": "^6.7.1",
-    "eslint-config-airbnb": "17.1.0",
+    "eslint-config-airbnb": "18.0.1",
     "eslint-config-shakacode": "17.0.0",
-    "eslint-plugin-import": "^2.17.3",
-    "jest": "^24.8.0",
-    "raw-loader": "^3.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "jest": "^25.0.0",
+    "raw-loader": "^4.0.0",
     "webpack": "4.41.2",
     "webpack-merge": "^4.1.0"
   }
