@@ -1,6 +1,6 @@
 {
-  "name": "sass-resources-loader",
-  "version": "2.0.1",
+  "name": "@spryker/sass-resources-loader",
+  "version": "2.0.1-spryker.0.1.0",
   "description": "SASS resources loader for Webpack",
   "main": "lib/loader.js",
   "scripts": {
@@ -19,7 +19,8 @@
   },
   "authors": [
     "Justin Gordon <justin.gordon@gmail.com> (https://github.com/justin808)",
-    "Alex Fedoseev <alex.fedoseev@gmail.com> (https://github.com/alexfedoseev)"
+    "Alex Fedoseev <alex.fedoseev@gmail.com> (https://github.com/alexfedoseev)",
+    "Aleksander Kovalenko <aleksander.kovalenko@spryker.com>"
   ],
   "license": "MIT",
   "repository": {
