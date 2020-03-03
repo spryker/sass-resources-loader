@@ -66,11 +66,11 @@ export default function (source) {
     files,
     (file, cb) => {
       try {
-          const contents = fs.readFileSync(file, 'utf8');
+        const contents = fs.readFileSync(file, 'utf8');
 
-          rewriteImports(null, file, contents, moduleContext, cb);
+        rewriteImports(null, file, contents, moduleContext, cb);
       } catch (error) {
-          rewriteImports(error, file, null, moduleContext, cb);
+        rewriteImports(error, file, null, moduleContext, cb);
       }
     },
     (error, resources) => {
